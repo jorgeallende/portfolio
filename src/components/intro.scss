@@ -1,0 +1,40 @@
+.intro{
+    background-color: gainsboro;
+    height: 90vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .conteudo{
+        width: 85%;
+        height: 90%;
+        display: flex;
+
+        .left{
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+            h1{
+                font-family: 'Bebas Neue', cursive;
+                font-size: 100px;
+                margin-bottom: 0;
+            }
+            h2{
+                margin-top: 0;
+            }
+
+            .title {
+                background-image: url(https://image.freepik.com/free-photo/multi-colored-psychedelic-background_23-2148805243.jpg);
+                background-attachment: fixed;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+        }
+
+        .right{
+            flex: 1;
+        }
+    }
+}
