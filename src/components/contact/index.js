@@ -4,18 +4,19 @@ import { ContactContainer, Wrapper, Left, Right, FootLine, Paragrafo, TopLine } 
 const Contact = () => {
   return (
     <ContactContainer id="contact">
-        <TopLine>Topline</TopLine>
+        <TopLine>Contato</TopLine>
       <Wrapper>
         <Left>
-            <Paragrafo>Contato</Paragrafo>
-            <Paragrafo>Instagram</Paragrafo>
+            <Paragrafo title={true}>Email</Paragrafo>
+            <Paragrafo title={true}>Instagram</Paragrafo>
+            <Paragrafo title={true}>LinkedIn</Paragrafo>
         </Left>
         <Right>
-            <br/>
+            <Paragrafo>jorgeallende333@gmail.com</Paragrafo>
             <Paragrafo>@jojiallende</Paragrafo>
+            <Paragrafo>@jorge-allende-dev</Paragrafo>
         </Right>
       </Wrapper>
-      <FootLine>Jorge Allende, 2021</FootLine>
     </ContactContainer>
   );
 };

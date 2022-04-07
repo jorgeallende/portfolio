@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { MainColor, AuxColor } from "../../global";
 
 export const ContactContainer = styled.div`
-  height: 40vh;
+  height: max-content;
   background-color: ${MainColor};
   display: flex;
   align-items: center;
@@ -33,9 +33,12 @@ export const FootLine = styled.div`
 `;
 
 export const Paragrafo = styled.p`
-
+  margin-right: 10px;
+  color: ${(props)=>(props.title ? "#ff7f00" : "")}
 `
 
 export const TopLine = styled.div`
-
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 19px 0;
 `
